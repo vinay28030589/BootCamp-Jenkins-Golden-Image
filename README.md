@@ -10,8 +10,5 @@
  $ unzip packer_1.8.7_linux_amd64.zip -d /usr/local/bin
 
 
-## Create zip file
- $ tar -cvf jenkinsrole.tar role/ jenkins.yml
-
-## Set AWS access/secret key environment variables & run the following
- $ packer build aws-ami.json
+## Update the Packer JSON file with a security group id which allows port 2049 on TCP in both inbound/outbound rules
+## Also ensure the EFS is created using the same security group 
