@@ -18,7 +18,7 @@
             "ssh_username": "ubuntu",
             "temporary_key_pair_type": "ed25519",
             "type": "amazon-ebs",
-            "security_group_id": "sg-0a781bd43a7ce089e"
+            "security_group_id": "sg-0291459c12c2b420b"
         }
     ],
   "provisioners": [
